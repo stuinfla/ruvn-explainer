@@ -19,6 +19,10 @@ node_modules/
 # Optional self-hosted fonts dropped in at build time (kept out of git).
 assets/fonts/*.woff2
 
+# studio/ holds local full-res NotebookLM masters (download staging only). The SERVED copies
+# live in assets/studio/ and the zip embeds from kb/stores/. Don't commit duplicate binaries.
+studio/
+
 # Tooling noise
 .DS_Store
 *.log

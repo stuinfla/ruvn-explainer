@@ -22,6 +22,12 @@
       ]
     },
     {
+      "source": "/(.*)\\.mp4",
+      "headers": [
+        { "key": "Content-Type", "value": "video/mp4" }
+      ]
+    },
+    {
       "source": "/downloads/(.*)\\.zip",
       "headers": [
         { "key": "Content-Type", "value": "application/zip" },
